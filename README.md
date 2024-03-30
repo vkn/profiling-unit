@@ -33,7 +33,7 @@ Clone the repository and run `mvn install`, then add the dependency in your pom.
 ```xml
 <dependency>
     <groupId>io.github.vkn</groupId>
-    <artifactId>profiling-extension</artifactId>
+    <artifactId>profiling-unit</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <scope>test</scope>
 </dependency>
