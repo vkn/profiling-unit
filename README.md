@@ -61,8 +61,7 @@ The result file will be stored ander `target/profiling/` directory
 
 ![image](https://github.com/vkn/profiling-unit/assets/1523371/67b57012-fd52-4d49-8f9b-69fe22a14eaf)
 
-The `@ProfilingUnit` can also be combined with `@QuarkusTest`
-
+The `@ProfilingUnit` can also be combined with [`@QuarkusTest`](https://quarkus.io/guides/getting-started-testing)
 ![image](https://github.com/vkn/profiling-unit/assets/1523371/55f54c58-010a-4d1c-b736-b6741f5b923b)
 
 ### Contributing
