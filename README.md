@@ -42,7 +42,7 @@ Clone the repository and run `mvn install`, then add the dependency in your pom.
 ### Usage
 To get started, annotate your test class with `@ProfilingUnit` and your test methods with `@ProfiledTest`
 instead of junit`@Test`. Configure the `@ProfiledTest` annotation to specify warm-up iterations, 
-the number of repetitions, and the profiling events yo~~~~u're interested in.
+the number of repetitions, and the profiling events you're interested in.
 
 ```java
 @ProfilingUnit
