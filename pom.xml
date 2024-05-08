@@ -27,7 +27,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/vkn/profiling-unit.git</connection>
-        <developerConnection>scm:git:https://github.com/jvkn/profiling-unit.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/vkn/profiling-unit.git</developerConnection>
         <url>https://github.com/vkn/profiling-unit.git</url>
     </scm>
 
