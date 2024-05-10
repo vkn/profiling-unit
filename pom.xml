@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.vkn</groupId>
     <artifactId>profiling-unit</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <name>ProfilingUnit</name>
     <url>https://github.com/vkn/profiling-unit/</url>
@@ -220,6 +220,8 @@
                                                 <active>ALWAYS</active>
                                                 <url>https://central.sonatype.com/api/v1/publisher</url>
                                                 <stagingRepositories>target/staging-deploy</stagingRepositories>
+                                                <retryDelay>60</retryDelay>
+                                                <maxRetries>60</maxRetries>
                                             </sonatype>
                                         </mavenCentral>
                                     </maven>
