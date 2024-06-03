@@ -57,7 +57,7 @@ public class MyTest {
 
 This setup will run `MyTest.myMethod` with 5 warm-up iterations followed by 10 repetitions, 
 profiling CPU usage, memory allocation, and lock contention, with the results output in JFR format.
-The result file will be stored ander `target/profiling/` directory
+The result file will be stored under `target/profiling/` directory
 
 ![image](https://github.com/vkn/profiling-unit/assets/1523371/67b57012-fd52-4d49-8f9b-69fe22a14eaf)
 
